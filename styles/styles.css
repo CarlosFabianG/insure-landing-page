@@ -48,4 +48,29 @@ body {
   font-size: 16px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .different-section-container .different-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .different-section-container .different-section p {
+  text-align: center;
+}
+
+.find-out-section {
+  background: #2d2640;
+  text-align: center;
+  color: white;
+  padding: 50px 20px;
+}
+.find-out-section h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.5rem;
+}
+
 /*# sourceMappingURL=styles.css.map */

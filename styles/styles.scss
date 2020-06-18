@@ -9,3 +9,35 @@ body {
     font-family: $font-karla;
     font-size: 16px;
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .main-title {
+
+    }
+    .different-section-container {
+            
+
+        .different-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p {
+                text-align: center;
+            }
+        }
+    }
+}
+
+.find-out-section {
+    background: $Dark-Violet;
+    text-align: center;
+    color: white;
+    padding: 50px 20px;
+    h2 {
+        font-family: $font-dm;
+        font-size: 2.5rem;
+    }
+}
