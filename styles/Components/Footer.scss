@@ -6,6 +6,11 @@ footer {
         padding: 63px;
         margin-bottom: 30px;
         background: url('../images/bg-pattern-footer-mobile.svg');
+        @include desktop {
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 30px;
+        }
     }
 
     .footer-links-container{
