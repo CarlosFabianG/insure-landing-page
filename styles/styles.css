@@ -18,10 +18,34 @@ header .hero-container {
   background: #2d2640;
   color: white;
 }
+header .hero-container .hero-text {
+  text-align: center;
+  padding: 50px 40px;
+}
+header .hero-container .hero-text h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+header .hero-container .hero-text p {
+  font-size: 0.8rem;
+  line-height: 2;
+  padding-bottom: 20px;
+}
+header .hero-container .hero-text a {
+  width: 115px;
+  border: solid white 1px;
+  padding: 8px 20px;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 body {
   margin: 0;
   padding: 0;
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=styles.css.map */
