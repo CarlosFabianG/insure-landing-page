@@ -1,0 +1,27 @@
+/* Variables */
+header .nav-bar {
+  border: solid red 1px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 20px;
+}
+header .nav-bar .logo {
+  height: 18px;
+}
+header .nav-bar nav {
+  background: url("../images/icon-hamburger.svg") no-repeat center;
+  height: 35px;
+  width: 40px;
+}
+header .hero-container {
+  background: #2d2640;
+  color: white;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/*# sourceMappingURL=styles.css.map */

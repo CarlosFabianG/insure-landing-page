@@ -1,0 +1,24 @@
+
+header {
+    
+    .nav-bar {
+        border: solid red 1px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px 20px;
+        .logo{
+            height: 18px;
+        }
+        nav {
+            background: url('../images/icon-hamburger.svg') no-repeat center;
+            height: 35px;
+            width: 40px;
+        }
+    }
+
+    .hero-container {
+        background: $Dark-Violet;
+        color: white;
+    }
+}
