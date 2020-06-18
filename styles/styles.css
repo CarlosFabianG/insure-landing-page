@@ -1,6 +1,5 @@
 /* Variables */
 header .nav-bar {
-  border: solid red 1px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,6 +40,26 @@ header .hero-container .hero-text a {
   text-transform: uppercase;
 }
 
+footer .footer-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 63px;
+  margin-bottom: 30px;
+  background: url("../images/bg-pattern-footer-mobile.svg");
+}
+footer .footer-links-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #2d2640;
+  border-top: solid #837d87 1px;
+}
+footer .footer-links-container .footer-links h4 {
+  color: #837d87;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -53,10 +72,16 @@ main {
   flex-direction: column;
   align-items: center;
 }
+main .main-title h1 {
+  font-family: "DM Serif Display", serif;
+}
 main .different-section-container .different-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+main .different-section-container .different-section h4 {
+  font-family: "DM Serif Display", serif;
 }
 main .different-section-container .different-section p {
   text-align: center;
@@ -71,6 +96,15 @@ main .different-section-container .different-section p {
 .find-out-section h2 {
   font-family: "DM Serif Display", serif;
   font-size: 2.5rem;
+  font-weight: 400;
+}
+.find-out-section a {
+  width: 115px;
+  border: solid white 1px;
+  padding: 8px 20px;
+  font-size: 0.7rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 /*# sourceMappingURL=styles.css.map */

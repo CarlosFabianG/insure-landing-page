@@ -1,0 +1,24 @@
+footer {
+    .footer-logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 63px;
+        margin-bottom: 30px;
+        background: url('../images/bg-pattern-footer-mobile.svg');
+    }
+
+    .footer-links-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        color: $Dark-Violet;
+        border-top: solid $Dark-Grayish-Violet 1px;
+        .footer-links {
+            h4 {
+                color: $Dark-Grayish-Violet;
+            }
+        }
+    }
+}
