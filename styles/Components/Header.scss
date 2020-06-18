@@ -13,13 +13,19 @@ header {
             background: url('../images/icon-hamburger.svg') no-repeat center;
             height: 35px;
             width: 40px;
+            @include desktop {
+                display: none;
+            }
         }
     }
 
     .hero-container {
         background: $Dark-Violet;
         color: white;
-        
+        @include desktop {
+            display: flex;
+            flex-direction: row-reverse;
+        }
 
         .hero-text {
             text-align: center;

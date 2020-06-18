@@ -20,7 +20,10 @@ main {
         }
     }
     .different-section-container {
-            
+        @include desktop {
+            display: flex;
+            flex-direction: row;
+        }
 
         .different-section {
             display: flex;
@@ -53,5 +56,10 @@ main {
         font-size: .7rem;
         letter-spacing: 2px;
         text-transform: uppercase;
+    }
+    @include desktop{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
     }
 }

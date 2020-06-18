@@ -20,5 +20,11 @@ footer {
                 color: $Dark-Grayish-Violet;
             }
         }
+
+        @include desktop {
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: baseline;
+        }
     }
 }
