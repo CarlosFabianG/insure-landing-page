@@ -17,6 +17,16 @@ header {
                 display: none;
             }
         }
+        .nav-menu {
+            display: block;
+            
+            text-transform: uppercase;
+            background: green;
+            width: 90vw;
+            li {
+                list-style: none;
+            }
+        }
     }
 
     .hero-container {

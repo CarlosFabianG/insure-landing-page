@@ -19,6 +19,15 @@ header .nav-bar nav {
     display: none;
   }
 }
+header .nav-bar .nav-menu {
+  display: block;
+  text-transform: uppercase;
+  background: green;
+  width: 90vw;
+}
+header .nav-bar .nav-menu li {
+  list-style: none;
+}
 header .hero-container {
   background: #2d2640;
   color: white;
