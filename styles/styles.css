@@ -84,9 +84,15 @@ footer .footer-logo-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 63px;
+  padding-top: 14vh;
   margin-bottom: 30px;
   background: url("../images/bg-pattern-footer-mobile.svg");
+}
+footer .footer-logo-container img {
+  margin-bottom: 25px;
+}
+footer .footer-logo-container .footer-icons img {
+  margin-right: 10px;
 }
 @media (min-width: 1024px) {
   footer .footer-logo-container {
