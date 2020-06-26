@@ -57,6 +57,9 @@ header .hero-container {
 header .hero-container .hero-text {
   text-align: center;
   padding: 50px 40px;
+  background: url("../images/bg-pattern-intro-left-mobile.svg"), url("../images/bg-pattern-intro-right-mobile.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: top left, bottom right;
 }
 header .hero-container .hero-text h1 {
   font-family: "DM Serif Display", serif;
@@ -99,6 +102,7 @@ footer .footer-links-container {
   text-align: center;
   color: #2d2640;
   border-top: solid #837d87 1px;
+  margin: 0 25px;
 }
 footer .footer-links-container .footer-links h4 {
   color: #837d87;
@@ -143,6 +147,7 @@ main .different-section-container .different-section h4 {
 }
 main .different-section-container .different-section p {
   text-align: center;
+  color: #837d87;
 }
 
 .find-out-section {
