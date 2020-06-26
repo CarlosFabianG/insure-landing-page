@@ -9,7 +9,7 @@ header {
         .logo{
             height: 18px;
         }
-        nav {
+        .burger-icon {
             background: url('../images/icon-hamburger.svg') no-repeat center;
             height: 35px;
             width: 40px;
@@ -18,13 +18,30 @@ header {
             }
         }
         .nav-menu {
-            display: block;
-            
+            display: none;
             text-transform: uppercase;
-            background: green;
             width: 90vw;
             li {
                 list-style: none;
+            }
+
+            @include desktop {
+                ul{
+                    display: flex;
+                    justify-content: flex-end;
+                    li {
+                        margin-left: 10vw;
+                    }
+                    .nav-button {
+                        border: solid black 1px;
+                        padding: 8px 20px;
+                        width: 115px;
+                        font-size: .7rem;
+                        letter-spacing: 2px;
+                        text-transform: uppercase;
+                    }
+                }
+               
             }
         }
     }
@@ -60,4 +77,6 @@ header {
             }
         }
     }
+
+    
 }
