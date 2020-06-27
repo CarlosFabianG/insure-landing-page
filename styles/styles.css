@@ -133,9 +133,16 @@ main {
   flex-direction: column;
   align-items: center;
   margin: 0 5vw;
+  margin-top: 100px;
+}
+main .main-title {
+  margin-bottom: 8vh;
 }
 main .main-title h1 {
   font-family: "DM Serif Display", serif;
+}
+main .different-section-container {
+  margin-bottom: 100px;
 }
 @media (min-width: 1024px) {
   main .different-section-container {
@@ -147,13 +154,17 @@ main .different-section-container .different-section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 main .different-section-container .different-section h4 {
   font-family: "DM Serif Display", serif;
+  font-size: 22px;
+  margin-bottom: 15px;
 }
 main .different-section-container .different-section p {
   text-align: center;
   color: #837d87;
+  margin: 0;
 }
 
 .find-out-section {
