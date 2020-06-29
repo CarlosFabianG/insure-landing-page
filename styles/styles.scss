@@ -20,7 +20,20 @@ main {
         margin-bottom: 8vh;
         h1 {
             font-family: $font-dm;
+            letter-spacing: 1px;
         }
+    }
+    .main-title::before {
+        
+            content: "";
+            height: 1px;
+            width: 110px;
+            background: $Grayish-Blue;
+            position: absolute;
+            left: 140px;
+            right: 0;
+            top: 1050px;
+        
     }
     .different-section-container {
         margin-bottom: 100px;

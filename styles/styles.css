@@ -140,6 +140,17 @@ main .main-title {
 }
 main .main-title h1 {
   font-family: "DM Serif Display", serif;
+  letter-spacing: 1px;
+}
+main .main-title::before {
+  content: "";
+  height: 1px;
+  width: 110px;
+  background: #95a9c6;
+  position: absolute;
+  left: 140px;
+  right: 0;
+  top: 1050px;
 }
 main .different-section-container {
   margin-bottom: 100px;
