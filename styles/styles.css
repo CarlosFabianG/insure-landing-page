@@ -109,9 +109,15 @@ footer .footer-links-container {
   color: #2d2640;
   border-top: solid #837d87 1px;
   margin: 0 25px;
+  padding-top: 20px;
+}
+footer .footer-links-container .footer-links {
+  text-transform: uppercase;
+  font-size: 12px;
 }
 footer .footer-links-container .footer-links h4 {
   color: #837d87;
+  margin-bottom: 30px;
 }
 @media (min-width: 1024px) {
   footer .footer-links-container {

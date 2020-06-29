@@ -29,9 +29,13 @@ footer {
         color: $Dark-Violet;
         border-top: solid $Dark-Grayish-Violet 1px;
         margin: 0 25px;
+        padding-top: 20px;
         .footer-links {
+            text-transform: uppercase;
+            font-size: 12px;
             h4 {
                 color: $Dark-Grayish-Violet;
+                margin-bottom: 30px;
             }
         }
 
