@@ -21,6 +21,7 @@ main {
         h1 {
             font-family: $font-dm;
             letter-spacing: 1px;
+            color: $Very-Dark-Violet;
         }
     }
     .main-title::before {
@@ -51,6 +52,7 @@ main {
                 font-family: $font-dm;
                 font-size: 22px;
                 margin-bottom: 15px;
+                color: $Very-Dark-Violet;
             }
             p {
                 text-align: center;

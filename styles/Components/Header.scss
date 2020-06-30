@@ -46,6 +46,43 @@ header {
         }
     }
 
+    .nav-mobile-container {
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        background-color: $Very-Dark-Violet;
+        background-image: url('../images/bg-pattern-mobile-nav.svg');
+        background-repeat: no-repeat;
+        background-position: bottom;
+
+        .nav-menu-mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-transform: uppercase;
+            color: white;
+            list-style: none;
+            margin-top: 0;
+            padding-left: 0;
+            padding-top: 30px;
+            li{
+                margin: 20px;
+                font-size: 22px;
+                letter-spacing: 2px;
+            }
+            .nav-button {
+                border: solid white 1px;
+                padding: 12px 20px;
+                width: 270px;
+                font-size: 20px;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                text-align: center;
+                margin-top: 12px;
+            }
+        }
+    }
+
     .hero-container {
         background: $Dark-Violet;
         color: white;
